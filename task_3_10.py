@@ -3,6 +3,7 @@ import random
 values = []
 
 size = int(input("Введите размер списка:\n"))
+
 for i in range(size):
     x = random.randint(0, 99)
     values.append(x)
